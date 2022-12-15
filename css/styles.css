@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: "Inter","Arial";
+    font-weight: 400;
+}
+section{
+    background-image: url(../img/Rectangle\ \(1\).png);
+    background-size: cover;
+    background-color:  #094556;
+    
+}
+.container{
+    max-width: 1210px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 162px;
+}
+.header-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+.logo-text{
+    margin-left: 10px;
+    font-weight: 700;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type:none; 
+}
+.nav-item{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.nav-link{
+    font-size: 18px;
+    line-height: 22px;
+    color: #A1B5BB;
+    text-decoration: none;
+}
+.btn{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFFFFF;
+    background-color: #145E76;
+    border-radius: 25px;
+    padding: 14px 35px;
+    border: none;
+}
+.hero{
+height: 800px;
+}
+.hero-btn{
+    font-family: 'Schoolbell';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+    background-color: #094556;
+    border-radius: 30px;
+    border: none;
+    padding: 16px 30px;
+    margin-bottom: 40px;
+}
+.heading{
+    width: 537px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.text{
+    width: 511px;
+    font-size: 18px;
+    line-height: 29px;
+    color: #849499;
+    margin-bottom: 30px;
+}
+.wrap{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 60px;
+}
+.wrap::after{
+    position: absolute;
+    background-image: url(../img/businessman-black-suit-makes-thumb-up-sign-removebg-preview\ 1\ \(1\).png);
+    display: inline-block;
+    content: " ";
+    width: 599px;
+    height: 730px;
+    top: -577px;
+    left: 660px;
+}
+
+.wrap-btn-one{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFFFFF;
+    background-color: #FFA63A;
+    border-radius: 25px;
+    border: none;
+    padding: 16px 35px;
+}
+.wrap-btn{
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    color: #B6CDD5;
+}
+.content{
+    height: 323px;
+    position: absolute;
+    padding: 78px 218px;
+    background: #FFFFFF;
+    box-shadow: 0px 73px 80px rgba(0, 0, 0, 0.06);
+    border-radius: 30px;
+    margin-top: -130px;
+    margin-left: 0px;
+}
+.content-title{
+    margin-top: 38px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 22px;
+    color: #265A6A;
+    text-align: center;
+    margin-bottom: 69px;
+}
+.list{
+    width: 734px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.item{
+    list-style-type: none;
+}
+.title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 22px;
+    color: #08546C;
+}
+.paragraf{
+    font-size: 18px;
+    line-height: 22px;
+    color: #08546C;
+}
